@@ -1,7 +1,6 @@
 const menuToggle = document.getElementById("menuToggle");
-const breadcrumbs = document.getElementById("breadcrumbs");
+const navLinks = document.getElementById("navLinks");
 
 menuToggle.addEventListener("click", () => {
-  breadcrumbs.style.display =
-    breadcrumbs.style.display === "block" ? "none" : "block";
+  navLinks.classList.toggle("active");
 });
